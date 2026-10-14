@@ -14,7 +14,8 @@ const gallery=[
  {url:"gallery/gallery-05.jpg",lo:"ຢາງພາລາ",en:"Rubber Products"},
  {url:"gallery/gallery-06.jpg",lo:"ສິນຄ້າກະສິກຳ",en:"Agriculture"},
  {url:"gallery/gallery-07.jpg",lo:"ວັດຖຸດິບທຳມະຊາດ",en:"Natural Materials"},
- {url:"agriculture/agri-04.png",lo:"ຊິລິຄອນ 99.9%",en:"Silicon 99.9% Pure"}
+ {url:"agriculture/agri-04.png",lo:"ຊິລິຄອນ 99.9%",en:"Silicon 99.9% Pure"},
+ {url:"agriculture/Biofuel.jpg",lo:"ນ້ຳມັນຊີວະພະລັງງານ",en:"Biofuel"}
 ];
 let lang=localStorage.getItem("inthaninLang")||"lo", currentGallery=0;
 const productGrid=document.getElementById("productGrid"), galleryGrid=document.getElementById("galleryGrid");
